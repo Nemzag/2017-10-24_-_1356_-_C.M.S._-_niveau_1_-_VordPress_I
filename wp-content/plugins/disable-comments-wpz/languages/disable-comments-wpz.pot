@@ -1,0 +1,81 @@
+# Copyright (C) 2015 Disable Comments | WPZest
+# This file is distributed under the same license as the Disable Comments | WPZest package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Disable Comments | WPZest 1.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disable-comments-"
+"wpz\n"
+"POT-Creation-Date: 2015-11-04 13:28:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (Disable Comments | WPZest 1.11)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: dc-wpzest.php:241
+msgid "Disable Comments | WPZest"
+msgstr ""
+
+#: dc-wpzest.php:340
+msgid "Everywhere"
+msgstr ""
+
+#: dc-wpzest.php:340
+msgid "Disable all comment-related controls and settings in WordPress."
+msgstr ""
+
+#: dc-wpzest.php:341
+msgid "%s: Use it only if you want to disable comments <em>everywhere</em>."
+msgstr ""
+
+#: dc-wpzest.php:341
+msgid "Warning"
+msgstr ""
+
+#: dc-wpzest.php:342 dc-wpzest.php:438
+msgid "Save Changes"
+msgstr ""
+
+#: dc-wpzest.php:411
+msgid "On certain post types"
+msgstr ""
+
+#: dc-wpzest.php:435
+msgid ""
+"All comment-related fields will also be hidden from the edit/quick-edit "
+"screens of the affected posts."
+msgstr ""
+
+#: dc-wpzest.php:466 dc-wpzest.php:536
+msgid "Select All"
+msgstr ""
+
+#: dc-wpzest.php:470 dc-wpzest.php:518 dc-wpzest.php:539 dc-wpzest.php:575
+msgid "Disable"
+msgstr ""
+
+#: dc-wpzest.php:471 dc-wpzest.php:519 dc-wpzest.php:540 dc-wpzest.php:576
+msgid "Enable"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpzest.com/wordpress-plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plug-in allows administrators to disable comments on any post type "
+"(Posts, Pages, Media). You can also enable/disable comments for particular "
+"post by clicking on \"Star Icon\"  under POST -> ALL POST."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPZest"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpzest.com"
+msgstr ""

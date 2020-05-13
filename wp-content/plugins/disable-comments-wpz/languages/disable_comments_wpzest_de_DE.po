@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disable-comments-"
+"wpz\n"
+"POT-Creation-Date: 2015-11-05 12:14+0530\n"
+"PO-Revision-Date: 2015-11-05 12:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+
+#. Plugin Name of the plugin/theme
+#: dc-wpzest.php:241
+msgid "Disable Comments | WPZest"
+msgstr "Deaktivieren Kommentare | WPZest"
+
+#: dc-wpzest.php:340
+msgid "Everywhere"
+msgstr "Überall"
+
+#: dc-wpzest.php:340
+msgid "Disable all comment-related controls and settings in WordPress."
+msgstr ""
+"Deaktivieren Sie alle Kommentar bezogene Kontrollen und Einstellungen in "
+"Wordpress ."
+
+#: dc-wpzest.php:341
+msgid "%s: Use it only if you want to disable comments <em>everywhere</em>."
+msgstr ""
+"% s: Verwenden Sie es nur, wenn Sie Kommentare <em> überall deaktivieren "
+"möchten </ em> ."
+
+#: dc-wpzest.php:341
+msgid "Warning"
+msgstr "Verwarnung"
+
+#: dc-wpzest.php:342 dc-wpzest.php:438
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: dc-wpzest.php:411
+msgid "On certain post types"
+msgstr "An bestimmten Post-Typen"
+
+#: dc-wpzest.php:435
+msgid ""
+"All comment-related fields will also be hidden from the edit/quick-edit "
+"screens of the affected posts."
+msgstr ""
+"Alle Kommentar -bezogenen Felder werden auch von den edit / Quick- Edit-"
+"Anzeigen der betroffenen Beiträge ausgeblendet werden."
+
+#: dc-wpzest.php:466 dc-wpzest.php:536
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: dc-wpzest.php:470 dc-wpzest.php:518 dc-wpzest.php:539 dc-wpzest.php:575
+msgid "Disable"
+msgstr "deaktivieren"
+
+#: dc-wpzest.php:471 dc-wpzest.php:519 dc-wpzest.php:540 dc-wpzest.php:576
+msgid "Enable"
+msgstr "Aktivieren"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpzest.com/wordpress-plugins/"
+msgstr "http://www.wpzest.com/wordpress-plugins/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plug-in allows administrators to disable comments on any post type "
+"(Posts, Pages, Media). You can also enable/disable comments for particular "
+"post by clicking on \"Star Icon\"  under POST -> ALL POST."
+msgstr ""
+"Dieses Plug-in ermöglicht es Administratoren, Kommentare zu jedem "
+"Posttyp( Beiträge , Seiten, Medien) zu deaktivieren. Sie können auch "
+"aktivieren / Kommentare zu besonderen Beitrag deaktivieren , indem Sie auf "
+"\"Star Icon \" unter POST -> ALL POST ."
+
+#. Author of the plugin/theme
+msgid "WPZest"
+msgstr "WPZest"
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpzest.com"
+msgstr "http://www.wpzest.com"

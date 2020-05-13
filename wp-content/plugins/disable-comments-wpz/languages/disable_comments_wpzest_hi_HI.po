@@ -1,0 +1,89 @@
+# Copyright (C) 2015 Disable Comments | WPZest
+# This file is distributed under the same license as the Disable Comments | WPZest package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Disable Comments | WPZest 1.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disable-comments-"
+"wpz\n"
+"POT-Creation-Date: 2015-11-05 15:00+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-11-05 15:04+0530\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hi_IN\n"
+
+#. Plugin Name of the plugin/theme
+#: dc-wpzest.php:241
+msgid "Disable Comments | WPZest"
+msgstr "टिप्पणियां अक्षम | WPZest"
+
+#: dc-wpzest.php:340
+msgid "Everywhere"
+msgstr "हर जगह"
+
+#: dc-wpzest.php:340
+msgid "Disable all comment-related controls and settings in WordPress."
+msgstr "वर्डप्रेस में सभी टिप्पणी से संबंधित नियंत्रण और सेटिंग्स अक्षम करें।"
+
+#: dc-wpzest.php:341
+msgid "%s: Use it only if you want to disable comments <em>everywhere</em>."
+msgstr ""
+"% s: आप <em> हर जगह टिप्पणियों को निष्क्रिय करना चाहते हैं तभी यह प्रयोग करें </ em> ।"
+
+#: dc-wpzest.php:341
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: dc-wpzest.php:342 dc-wpzest.php:438
+msgid "Save Changes"
+msgstr "परिवर्तनों को सुरक्षित करें"
+
+#: dc-wpzest.php:411
+msgid "On certain post types"
+msgstr "निश्चित पद प्रकार पर"
+
+#: dc-wpzest.php:435
+msgid ""
+"All comment-related fields will also be hidden from the edit/quick-edit "
+"screens of the affected posts."
+msgstr ""
+"सभी टिप्पणी से संबंधित क्षेत्रों को भी प्रभावित पदों के संपादन / त्वरित संपादित स्क्रीन से "
+"छिपा हो जाएगा ।"
+
+#: dc-wpzest.php:466 dc-wpzest.php:536
+msgid "Select All"
+msgstr "सबका चयन करें"
+
+#: dc-wpzest.php:470 dc-wpzest.php:518 dc-wpzest.php:539 dc-wpzest.php:575
+msgid "Disable"
+msgstr "अक्षम"
+
+#: dc-wpzest.php:471 dc-wpzest.php:519 dc-wpzest.php:540 dc-wpzest.php:576
+msgid "Enable"
+msgstr "सक्षम करें"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpzest.com/wordpress-plugins/"
+msgstr "http://www.wpzest.com/wordpress-plugins/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plug-in allows administrators to disable comments on any post type "
+"(Posts, Pages, Media). You can also enable/disable comments for particular "
+"post by clicking on \"Star Icon\"  under POST -> ALL POST."
+msgstr ""
+"इस प्लग में प्रशासकों किसी भी पद प्रकार ( पोस्ट, पन्ने, मीडिया) पर टिप्पणियों को "
+"निष्क्रिय करने की अनुमति देता है। तुम भी सक्षम / पोस्ट के तहत \"स्टार चिह्न\" पर क्लिक "
+"करके विशेष पोस्ट की टिप्पणियों के निष्क्रिय कर सकते हैं -> डाक ।"
+
+#. Author of the plugin/theme
+msgid "WPZest"
+msgstr "WPZest"
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpzest.com"
+msgstr "http://www.wpzest.com"

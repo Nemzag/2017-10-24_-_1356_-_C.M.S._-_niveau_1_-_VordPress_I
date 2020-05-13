@@ -1,0 +1,225 @@
+==========================================================================================
+                 Canuck WordPress Theme Change Log
+==========================================================================================
+
+To Consider for future upgrades
+-----------------------------------
+- header color control
+- add option for custom header image for blog, home and custom pages
+- add Canuck Calendar to exclude posts of excluded categories
+- see if you can get gallery post format to link to file
+
+Version 1.2.6
+-----------------------------------
+- fixed bug in home page section 8 service box 4 where double images were used.
+- changed opacity of search placeholder text
+
+Version 1.2.5
+-----------------------------------
+- fix bug in block image captions
+
+Version 1.2.4
+-----------------------------------
+- fixed bug in theme page where only the introduction was showing, all tabs now work
+- updated keyboard navigation to comply with TRT requirements
+- slightly modified sidebar responsiveness
+- modified minimized menu responsiveness
+
+Version 1.2.3
+-----------------------------------
+- added skip link focus as per TRT requirements
+- changed standard2,standard4,standard5, and password800 pictures
+- updated copyright to 2019
+- cadded canuck prefix to the name of theme set variables that are globals
+- theme sniffer and theme audit checked and adjusted
+- fixed sidebar setup in template-portfolio.php
+- removed $logo_option from header-blog.php, was not being used
+
+Version 1.2.2
+-----------------------------------
+- added display font options to the Customizer->Canuck Styles->Canuck:General Styles tab
+- fixed a bug that did not allow titles to be changed in the Recent Posts widgets
+- udated copyright notice
+- updated readme to conform to TRT requirements
+- fixed bugs in css
+- added wp_body_open shim to header files
+
+Version 1.2.1
+-----------------------------------
+- style.css was not properly compressed.
+
+Version 1.2.0
+-----------------------------------
+- this is a major upgrade for Canuck
+- Added support for blocks (Gutenberg)
+- Fixed menu titles improving wrap around when there are too many items.
+- fixed gallery styles for Gutenberg
+- set up block editor to more closely represent actual display
+- pushed side feature down to be accross from content start
+- added default image place holder if feature image is not supplied in image post format
+- fixed menu css to better handle longer menus that wrap on screen narrowing
+
+Version 1.1.9
+-----------------------------------
+- The screenshot that was changed in the last update was somehow the wrong one.
+
+Version 1.1.8
+-----------------------------------
+- changed screenshot to conform with TRT Guidelines
+- added widget area to home.php and template-home.php to allow video's in 
+  Blog and Home page feature areas
+- added licence declaration to minified files and a few js files I missed.
+- fixed bug on feature full size where captions were showing on the bottom
+
+Version 1.1.7
+-----------------------------------
+- move customizer styles to enqueue system to reduce theme audit hassles,
+  plus it should be there as good practice
+- fixed echo bug in metabox-functions.php
+- fixed typo in post-format-gallery-feature.php
+- minor code improvements
+
+Version 1.1.6
+-----------------------------------
+- fix donate link in Canuck Theme Page
+
+Version 1.1.5
+-----------------------------------
+- improved theme-page.php security
+- improved layout for jetpack subscription checkboxes
+- minor bug fixes
+
+Version 1.1.4
+-----------------------------------
+- fixed home page template sections for overlay bar problem, when in parallax
+- that pesky little bug on the archives widget needed more attention
+- fixed comment checkboxes for GDPR approvals
+- fixed home url on style.css and style-unmin.css
+
+Version 1.1.3
+-----------------------------------
+- added textdomains to translations in Archive widget
+- fixed bug in Canuck Category widget where certain categories would not load.
+- fixed bug in archives widget where no excluded id's caused a SQL syntax error
+- missed a few copright updates
+
+Version 1.1.2
+-----------------------------------
+- upgraded parallax.js to version 1.5.0
+- fine tuned parallax for scroll and opacity overlays
+- changed <h5 class="title"></h5> to <span class="title"></span>
+- added span.title to custom css header
+- modified searchform to html5 markdown
+- galleries, add option to include captions
+- fix galleries for floats
+- fixed css on tagcloud skins, search boxes
+- added Canuck Archives widget, which excludes categories selected for exclusion in the options.
+- added more shadowing on top strip
+- added option to use featured images on archive, category, tag, and search pages
+- fixed formatting for new cookies checkbox and text on comments form
+
+Version 1.1.1
+-----------------------------------
+- this update focus is to improve ther performance of the theme
+- set up lazy load option for theme, using jquery.lazy.js
+- changed .home-13-wrap{} and .home-12-wrap{} width to remove horizontal slidebar
+- increased posts for home-thirteen.php tp 50
+- increased posts for home-twelve.php tp 50
+- changed header.jpg to headerdefault.jpg in custom-header.php
+- added background, text, link and hover options for the footer
+- changed custom styles to add on to canuck-skin
+- added full size image slider option to the home and blog pages
+- removed title links on colorbox links home sections 9 and 12
+- fixed typo in home-eleven.php to populate Home Page Section 11 widget area instead of Home Page Section 10
+
+Version 1.1.0
+-----------------------------------
+- fixed a couple of errors in css, reported by user
+- added position: relative; to .flexslider{} to fix a bug on captions when in slide mode
+- more adjustments to the header style for the logo, one of these days I will figure this out :)
+- fixed css on masonry images to get 5px vertical spacing between images
+
+Version 1.0.9
+-----------------------------------
+- commented out social icon colors in skins, so the icon will turn white in hover
+- modified header css to get a better header in smaller devices in non-sticky mode
+
+Version 1.0.8
+-----------------------------------
+- fixed bug in quote format content display where has_excerpt() was used twice
+- removed call to template part "breadcrumbs_below_center" in template-home.php
+- fixed header text colors so the option in Colors works for .header-image-overlay{}
+- removed .header-image-overlay a{} and .header-image-overlay a:hover{} styles
+- modified backgrounds so the background color setting would change the background for the theme
+- added header text color and background color notes to the docs in theme page
+- modified a few css styles
+- fixed bug in comment link display
+- added option to exclude No Comments link
+
+Version 1.0.7
+-----------------------------------
+- added layouts and sidebars for WooCommerce Shop and Product Pages
+- adjusted logo styles to better handle oversized logos.
+- updated theme page documentation
+- modified WooCommerce cart link to wc_get_cart_url()
+
+Version 1.0.6
+-----------------------------------
+- fixed some social icon styles
+- translated Read More in portfolio-content.php
+
+Version 1.0.5
+-----------------------------------
+- removed image stacking on masonry pages by removing scroll reveal for those pages
+- added 'layout' handle to grid masonry images loaded doc ready script
+- modified styles and setup for template-masonry.php to fix touch device hover response
+- modifed css for masonry portfolio to fix touch device hover response
+- removed password from backup page and set page type to private.
+- modified backup page so post content meets specified requirements
+- modified Pinit pin to the standard round Pin, custom pins won't work on the iPhone
+- changed all overlays to width or height as opacity will not work on iphones
+- modified header menu css for better positioning and responsive view.
+- optimized customizer code
+- aded kha-customizer-controls.js to, imporove the user option experience
+- sections of options are now toggles on/off, and are in some cases conditional
+- fixed bug in page sidebar selection meta
+
+Version 1.0.4
+-----------------------------------
+- modified classic portfolio pages to do_shortcode( $post_content ); before echoing the content.
+- fixed a css bug in the recent posts widget
+- fixed the date display in the recent posts widget, all posts were displaying the same date.
+- adjusted the option backup system to only include content created by the options, removed formatting as well.
+
+Version 1.0.3
+-----------------------------------
+- changed background logo position to center
+- fixed htpps typo for enqueue font 3
+- modified canuck_styles() to better handle the order styles are loaded in child themes.
+- added Rock Salt and Playfair Display SC Google fonts
+
+Version 1.0.2
+-----------------------------------
+- changed author and theme url's to https://
+- moved threaded comments script load to canuck_load_js()
+- added is_admin() condition to excerpt function
+- fixed title displays for Category and Tag pages
+- fixed margin problem on search.php for pages
+- added select whitelisting for all select options except category selects
+- changed post spacing on search results
+- modified media grabber system to canuck prefix
+- changed home_url() to home_url( '/' )
+- fixed some translation misses
+- added validation check to hex to rgb function
+
+Version 1.0.1
+-----------------------------------
+- fixed bug in smooth-scroll-scripts.js fucus->focus :)
+- Added Pinterest PinIt button throughout the theme.
+- Added a Masonry custom template.
+- Added a Masonry page to the Portfolio Options.
+
+
+Version 1.0.0
+-----------------------------------
+- original release
